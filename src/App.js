@@ -12,7 +12,7 @@ function App() {
     <div>
       <BrowserRouter>
         <ScrollToTop />
-        <Route path="/" render={() => <Nav />} />
+        <Route exact path="/" render={() => <Nav />} />
         <Route exact path="/" render={() => <Home />} />
         <Route exact path="/" render={() => <About />} />
         <Route exact path="/" render={() => <Contact />} />

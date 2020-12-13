@@ -120,6 +120,8 @@ h2 {
 }
 .nav_item {
   margin: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   margin-right: 0;
   padding-right: 0;
 }

@@ -32,7 +32,7 @@ class Nav extends React.Component {
                 <a
                   href="#about"
                   class="nav_link test-1"
-                  onClick={() => this.setState({ active: !this.state.active })}
+                  onClick={() => this.setState({ active: false })}
                 >
                   About me
                 </a>
@@ -41,9 +41,18 @@ class Nav extends React.Component {
                 <a
                   href="#contact"
                   class="nav_link"
-                  onClick={() => this.setState({ active: !this.state.active })}
+                  onClick={() => this.setState({ active: false })}
                 >
                   Contact
+                </a>
+              </li>
+              <li class="nav_item">
+                <a
+                  href="https://drive.google.com/uc?export=download&id=12PmIZtI0yupa8JmvMraEqQuSycrJMG2k"
+                  class="nav_link"
+                  onClick={() => this.setState({ active: false })}
+                >
+                  CV
                 </a>
               </li>
             </ul>
