@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faFileDownload } from "@fortawesome/free-solid-svg-icons";
 
 class Nav extends React.Component {
   state = {
@@ -52,7 +52,7 @@ class Nav extends React.Component {
                   class="nav_link"
                   onClick={() => this.setState({ active: false })}
                 >
-                  CV
+                  Get CV
                 </a>
               </li>
             </ul>
@@ -70,9 +70,8 @@ class Nav extends React.Component {
             onClick={() => this.setState({ active: !this.state.active })}
             id="nav-toggle"
           >
-            NavToggle{" "}
+            <FontAwesomeIcon icon={faBars} />
           </a>
-          <FontAwesomeIcon icon={faBars} />
         </nav>
       </header>
     );

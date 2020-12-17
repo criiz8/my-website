@@ -21,10 +21,11 @@ const About = () => {
             <ul class="skills_list skills_first">
               <h3 class="skills_subtitle">Front End</h3>
               <li>
-                <span class="skills_name">Html</span>
+                <span class="skills_name">HTML</span>
+                <span class="skills_name">Bootstrap</span>
                 <span class="skills_name">CSS</span>
-                <span class="skills_name">Javascript</span>
                 <span class="skills_name">Sass</span>
+                <span class="skills_name">Javascript</span>
                 <span class="skills_name">React</span>
                 <span class="skills_name">Redux</span>
               </li>
@@ -32,7 +33,7 @@ const About = () => {
             <ul class="skills_list">
               <h3 class="skills_subtitle">Back End</h3>
               <li>
-                <span class="skills_name">NodeJS</span>
+                <span class="skills_name">Node.js</span>
                 <span class="skills_name">Express</span>
                 <span class="skills_name last">mySQL</span>
               </li>

@@ -69,7 +69,6 @@ ul {
 }
 a {
   text-decoration: none;
-  color: rgb(230, 230, 230);
 }
 img {
   max-width: 100%;
@@ -519,5 +518,9 @@ h2 {
   }
   .me_container {
     padding-top: 0.8rem;
+  }
+  .fa-bars {
+    display: flex;
+    font-size: 1.5rem;
   }
 }
