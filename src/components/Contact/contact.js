@@ -13,7 +13,6 @@ const Contact = () => {
           name="contact"
           netlify
           netlify-honeypot="bot-field"
-          hidden
         >
           <div className={style.contact_inputs}>
             <input
