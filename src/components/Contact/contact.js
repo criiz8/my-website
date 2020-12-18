@@ -10,6 +10,7 @@ const Contact = () => {
         <h2>Contact</h2>
         <form
           action=""
+          method="POST"
           className={style.contact_form}
           name="contact"
           data-netlify="true"
