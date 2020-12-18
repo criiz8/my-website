@@ -2,12 +2,13 @@ import React from "react";
 import work1 from "../../img/work1.png";
 import work2 from "../../img/work2.png";
 import work3 from "../../img/work3.png";
+import style from "./about.module.css";
 
 const About = () => {
   return (
-    <section class="about" id="about">
-      <div class="about_container bd-grid">
-        <div class="me_container">
+    <section className={style.about} id="about">
+      <div className={style.about_container + " " + style.bd_grid}>
+        <div className={style.me_container}>
           <h2>I am a web developer</h2>
           <p>
             I studied web development at Henry's Bootcamp. My main goal is to
@@ -15,65 +16,65 @@ const About = () => {
             coworkers. Problem solver.
           </p>
         </div>
-        <div class="skills_container">
+        <div className={style.skills_container}>
           <h2>Skills</h2>
-          <div class="skills_box">
-            <ul class="skills_list skills_first">
-              <h3 class="skills_subtitle">Front End</h3>
+          <div className={style.skills_box}>
+            <ul className={style.skills_list + " " + style.skills_first}>
+              <h3 className={style.skills_subtitle}>Front End</h3>
               <li>
-                <span class="skills_name">HTML</span>
-                <span class="skills_name">Bootstrap</span>
-                <span class="skills_name">CSS</span>
-                <span class="skills_name">Sass</span>
-                <span class="skills_name">Javascript</span>
-                <span class="skills_name">React</span>
-                <span class="skills_name">Redux</span>
+                <span className={style.skills_name}>HTML</span>
+                <span className={style.skills_name}>Bootstrap</span>
+                <span className={style.skills_name}>CSS</span>
+                <span className={style.skills_name}>Sass</span>
+                <span className={style.skills_name}>Javascript</span>
+                <span className={style.skills_name}>React</span>
+                <span className={style.skills_name}>Redux</span>
               </li>
             </ul>
-            <ul class="skills_list">
-              <h3 class="skills_subtitle">Back End</h3>
+            <ul className={style.skills_list}>
+              <h3 className={style.skills_subtitle}>Back End</h3>
               <li>
-                <span class="skills_name">Node.js</span>
-                <span class="skills_name">Express</span>
-                <span class="skills_name last">mySQL</span>
+                <span className={style.skills_name}>Node.js</span>
+                <span className={style.skills_name}>Express</span>
+                <span className={style.skills_name + " " + style.last}>
+                  mySQL
+                </span>
               </li>
             </ul>
           </div>
         </div>
-        <div class="portfolio_container">
+        <div className={style.portfolio_container}>
           <h2>Portfolio</h2>
-          <div class="portfolio_images bd-grid">
-            <div
-              class="portfolio_img"
-              onclick="window.open('https://codepen.io/criiz','mywindow');"
+          <div className={style.portfolio_images + " " + style.bd_grid}>
+            <a
+              href="https://codepen.io/criiz"
+              className={style.portfolio_link_name}
             >
-              <img src={work1} alt="" />
-              <div class="portfolio_link">
-                <a href="#" class="portfolio_link-name">
-                  Mobile Bank App
-                </a>
+              <div className={style.portfolio_img}>
+                <img src={work1} alt="" />
+                <div className={style.portfolio_link}>Mobile Bank App</div>
               </div>
-            </div>
-            <div
-              class="portfolio_img"
-              onclick="window.open('https://codepen.io/criiz','mywindow');"
+            </a>
+            <a
+              href="https://codepen.io/criiz"
+              className={style.portfolio_link_name}
             >
-              <img src={work2} alt="" />
-              <div class="portfolio_link">
-                <a href="#" class="portfolio_link-name">
+              <div className={style.portfolio_img}>
+                <img src={work2} alt="" />
+                <div className={style.portfolio_link}>
                   Responsive E-commerce
-                </a>
+                </div>
               </div>
-            </div>
-            <div class="portfolio_img">
-              <img src={work3} alt="" />
-              <div
-                class="portfolio_link"
-                onclick="window.open('https://codepen.io/criiz','mywindow');"
-              >
-                <a class="portfolio_link-name">Small Projects</a>
+            </a>
+            <a
+              href="https://codepen.io/criiz"
+              className={style.portfolio_link_name}
+            >
+              <div className={style.portfolio_img}>
+                <img src={work3} alt="" />
+                <div className={style.portfolio_link}>Small Projects</div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
