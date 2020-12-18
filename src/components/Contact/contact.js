@@ -9,7 +9,6 @@ const Contact = () => {
       <div className={style.contact_container + " " + style.bd_grid}>
         <h2>Contact</h2>
         <form
-          action=""
           method="POST"
           className={style.contact_form}
           name="contact"
