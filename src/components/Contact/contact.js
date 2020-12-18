@@ -12,7 +12,7 @@ const Contact = () => {
           action=""
           className={style.contact_form}
           name="contact"
-          netlify="true"
+          data-netlify="true"
         >
           <div className={style.contact_inputs}>
             <input
