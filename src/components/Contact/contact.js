@@ -8,7 +8,7 @@ const Contact = () => {
     <section className={style.contact} id="contact">
       <div className={style.contact_container + " " + style.bd_grid}>
         <h2>Contact</h2>
-        <form className={style.contact_form} name="contact" data-netlify="true">
+        <form className={style.contact_form} name="contact" netlify>
           <div className={style.contact_inputs}>
             <input
               type="text"
