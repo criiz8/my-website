@@ -22,15 +22,15 @@ const Contact = () => {
               className={style.contact_input}
             />
             <input
-              id="standard-basic"
               label="name"
               name="name"
+              placeholder="Name"
               className={style.contact_input}
             />
             <input
-              id="standard-basic"
               label="email"
               name="email"
+              placeholder="Email"
               className={style.contact_input}
             />
             <textarea
