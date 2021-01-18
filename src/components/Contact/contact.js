@@ -29,7 +29,7 @@ const Contact = () => {
             />
             <textarea
               name="textarea"
-              type="textarea"
+              type="text"
               placeholder="Tell me something"
               className={style.contact_input}
             ></textarea>
