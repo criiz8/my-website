@@ -11,8 +11,6 @@ const Contact = () => {
         <form
           className={style.contact_form}
           name="contact"
-          id="contact"
-          title="contact-form"
           method="POST"
           data-netlify="true"
         >
@@ -20,25 +18,24 @@ const Contact = () => {
             <input
               name="text"
               type="text"
-              id="text"
               placeholder="Name"
               className={style.contact_input}
             />
             <input
               name="email"
               type="email"
-              id="email"
               placeholder="Email"
               className={style.contact_input}
             />
             <textarea
-              className={style.contact_input}
+              name="textarea"
+              type="textarea"
               placeholder="Tell me something"
+              className={style.contact_input}
             ></textarea>
             <input
               name="submit"
               type="submit"
-              id="submit"
               value="Send"
               className={style.contact_button}
             />
