@@ -11,6 +11,7 @@ const Contact = () => {
         <form
           className={style.contact_form}
           name="contact"
+          title="contact"
           netlify
           netlify-honeypot="bot-field"
         >

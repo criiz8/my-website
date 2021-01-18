@@ -59,7 +59,7 @@ class Nav extends React.Component {
                   className={style.nav_link}
                   onClick={() => this.setState({ active: false })}
                 >
-                  Get CV
+                  Download CV
                 </a>
               </li>
             </ul>

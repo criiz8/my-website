@@ -1,7 +1,4 @@
 import React from "react";
-import work1 from "../../img/work1.png";
-import work2 from "../../img/work2.png";
-import work3 from "../../img/work3.png";
 import style from "./about.module.css";
 
 const About = () => {
@@ -47,13 +44,13 @@ const About = () => {
           <h2>Portfolio</h2>
           <div className={style.portfolio_images + " " + style.bd_grid}>
             <a
-              href="https://codepen.io/criiz"
+              href="https://soyhenry.com/"
               className={style.portfolio_link_name}
             >
               <div className={style.portfolio_img}>
                 <img
-                  src="https://raw.githubusercontent.com/criiz8/my-website/main/src/img/work3.png"
-                  alt="FreeCodeCamp"
+                  src="https://raw.githubusercontent.com/criiz8/my-website/main/src/img/work1.png"
+                  alt="SoyHenry"
                 />
                 <div className={style.portfolio_link}>
                   Responsive E-commerce
@@ -61,12 +58,12 @@ const About = () => {
               </div>
             </a>
             <a
-              href="https://codepen.io/criiz"
+              href="https://veganizate.netlify.app/"
               className={style.portfolio_link_name}
             >
               <div className={style.portfolio_img}>
                 <img
-                  src="https://raw.githubusercontent.com/criiz8/my-website/main/src/img/work3.png"
+                  src="https://raw.githubusercontent.com/criiz8/my-website/main/src/img/work2.png"
                   alt="Veganizate"
                 />
                 <div className={style.portfolio_link}>Veganizate</div>

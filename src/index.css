@@ -89,8 +89,10 @@ h2 {
 }
 .fa-github,
 .fa-linkedin {
-  margin-left: 10px;
   color: rgb(240, 240, 240);
+}
+.fa-linkedin {
+  margin-right: 1rem;
 }
 .fab {
   padding-left: 0.5rem;

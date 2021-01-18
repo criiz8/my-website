@@ -73,7 +73,6 @@
 .nav_social a {
   font-size: 1.1rem;
   font-weight: 800;
-  padding-right: 1rem;
 }
 .nav_list {
   display: flex;
@@ -114,6 +113,10 @@
 }
 .scroll {
   overflow: hidden;
+}
+p {
+  margin-top: 0;
+  padding-right: 1rem;
 }
 
 /* ===== MAX WIDTH =====*/
