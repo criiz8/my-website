@@ -1,7 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
-import me from "../../img/me.png";
 import style from "./home.module.css";
 
 const Home = () => {
@@ -19,7 +18,11 @@ const Home = () => {
             Scroll down
           </a>
         </div>
-        <img src={me} alt="" className={style.home_img} />
+        <img
+          src="https://raw.githubusercontent.com/criiz8/my-website/main/src/img/me.png"
+          alt="Cristian Ariza"
+          className={style.home_img}
+        />
       </div>
     </section>
   );

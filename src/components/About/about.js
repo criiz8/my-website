@@ -51,16 +51,10 @@ const About = () => {
               className={style.portfolio_link_name}
             >
               <div className={style.portfolio_img}>
-                <img src={work1} alt="" />
-                <div className={style.portfolio_link}>Mobile Bank App</div>
-              </div>
-            </a>
-            <a
-              href="https://codepen.io/criiz"
-              className={style.portfolio_link_name}
-            >
-              <div className={style.portfolio_img}>
-                <img src={work2} alt="" />
+                <img
+                  src="https://raw.githubusercontent.com/criiz8/my-website/main/src/img/work3.png"
+                  alt="FreeCodeCamp"
+                />
                 <div className={style.portfolio_link}>
                   Responsive E-commerce
                 </div>
@@ -71,7 +65,22 @@ const About = () => {
               className={style.portfolio_link_name}
             >
               <div className={style.portfolio_img}>
-                <img src={work3} alt="" />
+                <img
+                  src="https://raw.githubusercontent.com/criiz8/my-website/main/src/img/work3.png"
+                  alt="Veganizate"
+                />
+                <div className={style.portfolio_link}>Veganizate</div>
+              </div>
+            </a>
+            <a
+              href="https://codepen.io/criiz"
+              className={style.portfolio_link_name}
+            >
+              <div className={style.portfolio_img}>
+                <img
+                  src="https://raw.githubusercontent.com/criiz8/my-website/main/src/img/work3.png"
+                  alt="FreeCodeCamp"
+                />
                 <div className={style.portfolio_link}>Small Projects</div>
               </div>
             </a>
