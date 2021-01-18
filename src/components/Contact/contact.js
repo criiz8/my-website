@@ -11,9 +11,9 @@ const Contact = () => {
         <form
           className={style.contact_form}
           name="contact"
-          id="text"
+          id="contact"
           title="contact-form"
-          action="POST"
+          method="POST"
           data-netlify="true"
         >
           <div className={style.contact_inputs}>
@@ -27,7 +27,7 @@ const Contact = () => {
             <input
               name="email"
               type="email"
-              id="text"
+              id="email"
               placeholder="Email"
               className={style.contact_input}
             />
@@ -38,7 +38,7 @@ const Contact = () => {
             <input
               name="submit"
               type="submit"
-              id="text"
+              id="submit"
               value="Send"
               className={style.contact_button}
             />
