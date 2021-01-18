@@ -27,12 +27,12 @@ const Contact = () => {
               placeholder="Email"
               className={style.contact_input}
             />
-            <textarea
+            {/* <textarea
               name="textarea"
               type="text"
               placeholder="Tell me something"
               className={style.contact_input}
-            ></textarea>
+            ></textarea> */}
             <input
               name="submit"
               type="submit"
