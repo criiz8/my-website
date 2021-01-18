@@ -33,6 +33,12 @@ const Contact = () => {
               name="email"
               className={style.contact_input}
             />
+            <textarea
+              name="message"
+              type="text"
+              placeholder="Tell me something"
+              className={style.contact_input}
+            ></textarea>
             <button type="submit" className={style.contact_button}>
               Send
             </button>
