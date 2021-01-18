@@ -33,12 +33,12 @@ const Contact = () => {
               placeholder="Tell me something"
               className={style.contact_input}
             ></textarea> */}
-            <input
+            <button
               name="submit"
               type="submit"
               value="Send"
               className={style.contact_button}
-            />
+            ></button>
           </div>
         </form>
       </div>
