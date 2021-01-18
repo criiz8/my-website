@@ -11,18 +11,23 @@ const Contact = () => {
         <form
           className={style.contact_form}
           name="contact"
-          title="contact"
-          netlify
-          netlify-honeypot="bot-field"
+          id="text"
+          title="contact-form"
+          action="POST"
+          data-netlify="true"
         >
           <div className={style.contact_inputs}>
             <input
+              name="text"
               type="text"
+              id="text"
               placeholder="Name"
               className={style.contact_input}
             />
             <input
+              name="email"
               type="email"
+              id="text"
               placeholder="Email"
               className={style.contact_input}
             />
@@ -31,7 +36,9 @@ const Contact = () => {
               placeholder="Tell me something"
             ></textarea>
             <input
+              name="submit"
               type="submit"
+              id="text"
               value="Send"
               className={style.contact_button}
             />
