@@ -8,6 +8,39 @@ const Contact = () => {
     <section className={style.contact} id="contact">
       <div className={style.contact_container + " " + style.bd_grid}>
         <h2>Contact</h2>
+        <form
+          className={style.contact_form}
+          name="contact"
+          method="POST"
+          data-netlify="true"
+        >
+          <div className={style.contact_inputs}>
+            <input
+              name="text"
+              type="text"
+              placeholder="Name"
+              className={style.contact_input}
+            />
+            <input
+              name="email"
+              type="email"
+              placeholder="Email"
+              className={style.contact_input}
+            />
+            {/* <textarea
+              name="textarea"
+              type="text"
+              placeholder="Tell me something"
+              className={style.contact_input}
+            ></textarea> */}
+            <button
+              name="submit"
+              type="submit"
+              value="Send"
+              className={style.contact_button}
+            ></button>
+          </div>
+        </form>
       </div>
       <div className={style.contact_info}>
         <p className={style.contact_text}>info@cristianariza.tech</p>
