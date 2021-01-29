@@ -4,7 +4,20 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import style from "./contact.module.css";
 
 export default class MainContact extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      SuccessMessage: "",
+    };
+  }
   render() {
+    console.log(this.state.SuccessMessage);
+    const handleSubmit = (e) => {
+      this.setState({
+        SuccessMessage: (this.state.SuccessMessage =
+          "Thanks for your message!"),
+      });
+    };
     return (
       <section className={style.contact} id="contact">
         <div className={style.contact_container + " " + style.bd_grid}>
@@ -40,7 +53,11 @@ export default class MainContact extends React.Component {
                 placeholder="Tell me something"
                 className={style.contact_input}
               ></textarea>
-              <button type="submit" className={style.contact_button}>
+              <button
+                type="submit"
+                className={style.contact_button}
+                onClick={handleSubmit}
+              >
                 Send
               </button>
             </div>
