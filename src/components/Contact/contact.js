@@ -37,18 +37,21 @@ export default class MainContact extends React.Component {
                 className={style.contact_input}
               />
               <input
+                required
                 label="name"
                 name="name"
                 placeholder="Name"
                 className={style.contact_input}
               />
               <input
+                required
                 label="email"
                 name="email"
                 placeholder="Email"
                 className={style.contact_input}
               />
               <textarea
+                required
                 name="message"
                 type="text"
                 placeholder="Tell me something"
