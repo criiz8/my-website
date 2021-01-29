@@ -27,6 +27,7 @@ export default class MainContact extends React.Component {
           <h4 className={style.success}>{this.state.SuccessMessage}</h4>
           <form
             name="contact"
+            method="POST"
             data-netlify="true"
             className={style.contact_form}
           >
