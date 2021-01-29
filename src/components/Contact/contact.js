@@ -17,6 +17,7 @@ export default class MainContact extends React.Component {
         SuccessMessage: (this.state.SuccessMessage =
           "Thanks for your message!"),
       });
+      e.preventDefault();
     };
     return (
       <section className={style.contact} id="contact">
