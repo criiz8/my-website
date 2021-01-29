@@ -76,10 +76,17 @@
 }
 .contact_info {
   background-color: #0f1419;
-
-  padding-top: 5.2rem;
+  margin-top: 5.2rem;
   position: relative;
   text-align: center;
+}
+.margin {
+  margin-top: 3.85rem;
+}
+.success {
+  color: #6b77fa;
+  text-align: center;
+  margin-top: 0;
 }
 
 /* ===== MAX WIDTH =====*/
@@ -88,7 +95,7 @@
     height: auto;
   }
   .contact_info {
-    padding-top: 2rem;
-    padding-bottom: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
   }
 }
