@@ -11,7 +11,6 @@ export default class MainContact extends React.Component {
     };
   }
   render() {
-    console.log(this.state.SuccessMessage);
     const handleSubmit = (e) => {
       this.setState({
         SuccessMessage: (this.state.SuccessMessage =
@@ -23,6 +22,7 @@ export default class MainContact extends React.Component {
       <section className={style.contact} id="contact">
         <div className={style.contact_container + " " + style.bd_grid}>
           <h2>Contact</h2>
+          <h4 className={style.success}>{this.state.SuccessMessage}</h4>
           <form
             name="contact"
             method="POST"
@@ -61,7 +61,13 @@ export default class MainContact extends React.Component {
             </div>
           </form>
         </div>
-        <div className={style.contact_info}>
+        <div
+          className={
+            this.state.SuccessMessage
+              ? style.margin + " " + style.contact_info
+              : style.contact_info
+          }
+        >
           <p className={style.contact_text}>info@cristianariza.tech</p>
           <a
             href="https://www.linkedin.com/in/crisariza/"
