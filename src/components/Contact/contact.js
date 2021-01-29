@@ -4,21 +4,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import style from "./contact.module.css";
 
 export default class MainContact extends React.Component {
-  /* constructor(props) {
-    super(props);
-    this.state = {
-      SuccessMessage: "",
-    };
-  } */
-
   render() {
-    /* const handleSubmit = (e) => {
-      this.setState({
-        SuccessMessage: (this.state.SuccessMessage =
-          "Thanks for your message!"),
-      });
-      e.preventDefault();
-    }; */
     return (
       <section className={style.contact} id="contact">
         <div className={style.contact_container + " " + style.bd_grid}>
