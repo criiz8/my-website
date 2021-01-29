@@ -4,22 +4,21 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import style from "./contact.module.css";
 
 export default class MainContact extends React.Component {
-  constructor(props) {
+  /* constructor(props) {
     super(props);
     this.state = {
       SuccessMessage: "",
     };
-  }
+  } */
 
   render() {
-    console.log(this.state.SuccessMessage === true);
-    const handleSubmit = (e) => {
+    /* const handleSubmit = (e) => {
       this.setState({
         SuccessMessage: (this.state.SuccessMessage =
           "Thanks for your message!"),
       });
       e.preventDefault();
-    };
+    }; */
     return (
       <section className={style.contact} id="contact">
         <div className={style.contact_container + " " + style.bd_grid}>
@@ -68,13 +67,7 @@ export default class MainContact extends React.Component {
             </div>
           </form>
         </div>
-        <div
-          className={
-            this.state.SuccessMessage
-              ? style.margin + " " + style.contact_info
-              : style.contact_info
-          }
-        >
+        <div>
           <p className={style.contact_text}>info@cristianariza.tech</p>
           <a
             href="https://www.linkedin.com/in/crisariza/"
