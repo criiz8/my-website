@@ -28,6 +28,7 @@ export default class MainContact extends React.Component {
             method="POST"
             data-netlify="true"
             className={style.contact_form}
+            onSubmit={handleSubmit}
           >
             <div className={style.contact_inputs}>
               <input
@@ -54,11 +55,7 @@ export default class MainContact extends React.Component {
                 placeholder="Tell me something"
                 className={style.contact_input}
               ></textarea>
-              <button
-                type="submit"
-                className={style.contact_button}
-                onClick={handleSubmit}
-              >
+              <button type="submit" className={style.contact_button}>
                 Send
               </button>
             </div>
