@@ -38,15 +38,17 @@ export default class Contact extends React.Component {
               />
               <input
                 required
-                label="name"
                 name="name"
+                label="name"
+                type="text"
                 placeholder="Name"
                 className={style.contact_input}
               />
               <input
                 required
-                label="email"
                 name="email"
+                label="email"
+                type="email"
                 placeholder="Email"
                 className={style.contact_input}
               />
