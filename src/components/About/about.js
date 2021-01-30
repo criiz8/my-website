@@ -6,7 +6,7 @@ const About = () => {
     <section className={style.about} id="about">
       <div className={style.about_container + " " + style.bd_grid}>
         <div className={style.me_container}>
-          <h2>I am a web developer</h2>
+          <h2>I am a Full Stack Developer</h2>
           <p>
             I studied web development at Henry's Bootcamp. My main goal is to
             bring you the best quality. I love to code things and talk with my
@@ -20,21 +20,22 @@ const About = () => {
               <h3 className={style.skills_subtitle}>Front End</h3>
               <li>
                 <span className={style.skills_name}>HTML</span>
-                <span className={style.skills_name}>Bootstrap</span>
                 <span className={style.skills_name}>CSS</span>
-                <span className={style.skills_name}>Sass</span>
                 <span className={style.skills_name}>Javascript</span>
                 <span className={style.skills_name}>React</span>
+                <span className={style.skills_name}>React Native</span>
                 <span className={style.skills_name}>Redux</span>
               </li>
             </ul>
             <ul className={style.skills_list}>
               <h3 className={style.skills_subtitle}>Back End</h3>
               <li>
-                <span className={style.skills_name}>Node.js</span>
+                <span className={style.skills_name}>Node</span>
                 <span className={style.skills_name}>Express</span>
+                <span className={style.skills_name}>MySQL</span>
+                <span className={style.skills_name}>PostgreSQL</span>
                 <span className={style.skills_name + " " + style.last}>
-                  mySQL
+                  MongoDB
                 </span>
               </li>
             </ul>

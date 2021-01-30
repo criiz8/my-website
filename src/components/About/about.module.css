@@ -42,8 +42,8 @@
   color: #15202b;
   display: inline-block;
   font-size: var(--small-font-size);
-  margin-right: var(--mb-2);
-  margin-bottom: var(--mb-3);
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
   padding: 0.25rem 0.5rem;
   background-color: #efefff;
   border-radius: 0.25rem;
