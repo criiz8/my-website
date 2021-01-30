@@ -39,7 +39,6 @@ export default class Contact extends React.Component {
               <input
                 required
                 name="name"
-                label="name"
                 type="text"
                 placeholder="Name"
                 className={style.contact_input}
@@ -47,7 +46,6 @@ export default class Contact extends React.Component {
               <input
                 required
                 name="email"
-                label="email"
                 type="email"
                 placeholder="Email"
                 className={style.contact_input}
