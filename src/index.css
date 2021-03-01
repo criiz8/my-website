@@ -1,0 +1,125 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+
+/*===== COLORS =====*/
+:root {
+  --first-color: #6b77fa;
+  --white-color: #dfdfff;
+  --dark-color: #2a3b47;
+  --text-color: #697477;
+}
+
+/*===== FONT & TYPO =====*/
+:root {
+  --body-font: "Montserrat";
+  --big-font-size: 10.5rem;
+  --h2-font-size: 2.1rem;
+  --normal-font-size: 1.1rem;
+  --small-font-size: 0.9rem;
+  --header-height: 4rem;
+  --font-medium: 500;
+}
+
+/*===== MARGINS =====*/
+:root {
+  --mb-1: 0.5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+}
+
+/*===== Z-INDEX =====*/
+:root {
+  --z-fixed: 100;
+}
+
+/*===== BASE =====*/
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #6b77fa;
+  color: white;
+  margin: 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  text-align: left;
+}
+h1,
+h2 {
+  color: white;
+  line-height: 2rem;
+}
+p {
+  color: rgb(230, 230, 230);
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.section {
+  padding: 3rem 0;
+}
+h2 {
+  position: relative;
+  font-size: var(--h2-font-size);
+  text-align: center;
+}
+
+/*===== ICONS =====*/
+.fa-chevron-down {
+  padding-top: 4px;
+  transform: rotate(-180deg);
+  vertical-align: 0px;
+  font-size: 22px;
+}
+.fa-github,
+.fa-linkedin {
+  color: rgb(240, 240, 240);
+}
+.fa-linkedin {
+  margin-right: 1rem;
+}
+.fab {
+  padding-left: 0.5rem;
+  color: rgb(230, 230, 230);
+}
+.fa-bars {
+  display: none;
+}
+.fa-times {
+  color: #15202b;
+}
+
+/* ===== MAX WIDTH =====*/
+@media screen and (max-width: 768px) {
+  :root {
+    --big-font-size: 6.25rem;
+    --h2-font-size: 1.8rem;
+    --normal-font-size: 1.2rem;
+    --small-font-size: 0.9rem;
+  }
+  body {
+    background-color: #6b77fa;
+    margin: var(--header-height) 0 0 0;
+  }
+  .fa-bars {
+    display: flex;
+    font-size: 1.5rem;
+  }
+}

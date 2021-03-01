@@ -1,0 +1,139 @@
+/*===== LAYOUT =====*/
+.bd_grid {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  max-width: 1024px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-column-gap: 2rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ===== ABOUT ME =====*/
+.about {
+  background-color: #15202b;
+  height: 100vh;
+}
+.me_container {
+  align-items: center;
+  text-align: initial;
+  padding-top: 3.5rem;
+}
+.skills_container {
+  row-gap: 2rem;
+  padding-top: 6rem;
+}
+.skills_container h2 {
+  margin: 0;
+}
+.skills_list {
+  display: inline-block;
+}
+.skills_box {
+  display: flex;
+  justify-content: space-between;
+}
+.skills_subtitle {
+  color: var(--first-color);
+  margin-bottom: var(--mb-3);
+}
+.skills_name {
+  color: #15202b;
+  display: inline-block;
+  font-size: var(--small-font-size);
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 0.25rem 0.5rem;
+  background-color: #efefff;
+  border-radius: 0.25rem;
+}
+.last {
+  margin-right: 0;
+}
+.skills_name:hover {
+  background-color: var(--first-color);
+  color: var(--white-color);
+}
+.skills_img img {
+  border-radius: 0.5rem;
+}
+
+/* ===== PORTFOLIO =====*/
+.portfolio {
+  background-color: var(--white-color);
+}
+.portfolio_container {
+  padding-top: 6rem;
+}
+.portfolio_images {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 2rem;
+  justify-items: center;
+  row-gap: 2rem;
+  padding: 0;
+}
+.portfolio_img {
+  position: relative;
+  overflow: hidden;
+}
+.portfolio_img img {
+  border-radius: 0.5rem;
+}
+.portfolio_link {
+  position: absolute;
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(239, 239, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.portfolio_img:hover .portfolio_link {
+  bottom: 0;
+}
+.portfolio_link_name {
+  font-weight: 1000;
+  color: #0f1419;
+}
+
+/* ===== MAX WIDTH =====*/
+@media screen and (max-width: 768px) {
+  .bd_grid {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .skills_box {
+    display: inline;
+  }
+  .nav_link:hover {
+    color: white;
+    text-shadow: none;
+  }
+  .about {
+    height: auto;
+  }
+
+  .me_container {
+    padding-top: 0.8rem;
+  }
+  .portfolio_images {
+    display: inline;
+  }
+  .portfolio_images img {
+    margin-bottom: 2rem;
+  }
+  .skills_container {
+    padding-top: 2rem;
+  }
+  .portfolio_container {
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 0.5rem;
+  }
+}
