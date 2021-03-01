@@ -9,8 +9,7 @@ const About = () => {
           <h2>I am a Full Stack Developer</h2>
           <p>
             I studied web development at Henry's Bootcamp. My main goal is to
-            bring you the best quality. I love to code things and talk with my
-            coworkers. Problem solver.
+            bring you the best quality. I love to code things. Problem solver.
           </p>
         </div>
         <div className={style.skills_container}>
@@ -32,10 +31,10 @@ const About = () => {
               <li>
                 <span className={style.skills_name}>Node</span>
                 <span className={style.skills_name}>Express</span>
-                <span className={style.skills_name}>MySQL</span>
+                <span className={style.skills_name}>MongoDB</span>
                 <span className={style.skills_name}>PostgreSQL</span>
                 <span className={style.skills_name + " " + style.last}>
-                  MongoDB
+                  Sequelize
                 </span>
               </li>
             </ul>
@@ -59,7 +58,31 @@ const About = () => {
               </div>
             </a>
             <a
-              href="https://veganizate.netlify.app/"
+              href="https://soyhenry.com/"
+              className={style.portfolio_link_name}
+            >
+              <div className={style.portfolio_img}>
+                <img
+                  src="https://raw.githubusercontent.com/criiz8/my-website/main/src/img/work1.png"
+                  alt="Mobile App"
+                />
+                <div className={style.portfolio_link}>Mobile App</div>
+              </div>
+            </a>
+            <a
+              href="https://mondocountries.netlify.com"
+              className={style.portfolio_link_name}
+            >
+              <div className={style.portfolio_img}>
+                <img
+                  src="https://raw.githubusercontent.com/criiz8/my-website/main/src/img/work1.png"
+                  alt="Mondo"
+                />
+                <div className={style.portfolio_link}>Mondo</div>
+              </div>
+            </a>{" "}
+            <a
+              href="https://veganizate.netlify.com"
               className={style.portfolio_link_name}
             >
               <div className={style.portfolio_img}>
@@ -69,7 +92,7 @@ const About = () => {
                 />
                 <div className={style.portfolio_link}>Veganizate</div>
               </div>
-            </a>
+            </a>{" "}
             <a
               href="https://codepen.io/criiz"
               className={style.portfolio_link_name}
@@ -77,9 +100,18 @@ const About = () => {
               <div className={style.portfolio_img}>
                 <img
                   src="https://raw.githubusercontent.com/criiz8/my-website/main/src/img/work3.png"
-                  alt="FreeCodeCamp"
+                  alt="Small projects"
                 />
-                <div className={style.portfolio_link}>Small Projects</div>
+                <div className={style.portfolio_link}>Small projects</div>
+              </div>
+            </a>{" "}
+            <a href="https://google.com" className={style.portfolio_link_name}>
+              <div className={style.portfolio_img}>
+                <img
+                  src="https://raw.githubusercontent.com/criiz8/my-website/main/src/img/work3.png"
+                  alt="Coming Soon"
+                />
+                <div className={style.portfolio_link}>Coming soon</div>
               </div>
             </a>
           </div>

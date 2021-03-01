@@ -18,11 +18,11 @@
 .me_container {
   align-items: center;
   text-align: initial;
-  padding-top: 3.5rem;
+  padding-top: 1rem;
 }
 .skills_container {
   row-gap: 2rem;
-  padding-top: 6rem;
+  margin-top: 2rem;
 }
 .skills_container h2 {
   margin: 0;
@@ -64,7 +64,7 @@
   background-color: var(--white-color);
 }
 .portfolio_container {
-  padding-top: 6rem;
+  padding-top: 1rem;
 }
 .portfolio_images {
   grid-template-columns: repeat(3, 1fr);
