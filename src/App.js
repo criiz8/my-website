@@ -1,10 +1,10 @@
 import React from "react";
 import { Route, BrowserRouter } from "react-router-dom";
-import Home from "./components/home/home";
-import Nav from "./components/nav/nav";
-import About from "./components/about/about";
-import Contact from "./components/contact/contact";
-import Scroll from "./components/scroll/scroll";
+import Home from "./components/home/home.jsx";
+import Nav from "./components/nav/nav.jsx";
+import About from "./components/about/about.jsx";
+import Contact from "./components/contact/contact.jsx";
+import Scroll from "./components/scroll/scroll.jsx";
 import "./App.css";
 
 function App() {

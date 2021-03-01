@@ -49,6 +49,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
+  text-align: left;
 }
 h1,
 h2 {
