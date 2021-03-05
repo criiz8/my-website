@@ -2,12 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 import style from "./nav.module.css";
 
 class Nav extends React.Component {
   state = {
     active: false,
+    theme: "dark",
   };
 
   render() {
@@ -55,14 +56,28 @@ class Nav extends React.Component {
               </li>
               <li className={style.nav_item}>
                 <a
-                  href="https://drive.google.com/uc?export=download&id=12PmIZtI0yupa8JmvMraEqQuSycrJMG2k"
+                  href="/cristian_ariza-resume_eng.pdf"
                   className={style.nav_link}
                   onClick={() => this.setState({ active: false })}
                 >
-                  Download CV
+                  Resume
+                </a>
+              </li>{" "}
+              <li className={style.nav_item}>
+                <a className={style.nav_link}>EN</a> /{" "}
+                <a className={style.nav_link}>ES</a> /{" "}
+                <a className={style.nav_link}>IT</a>
+              </li>{" "}
+              <li className={style.nav_item}>
+                <a className={style.mode}>
+                  {this.state.theme === "dark" ? (
+                    <FontAwesomeIcon icon={faMoon} />
+                  ) : (
+                    <FontAwesomeIcon icon={faSun} />
+                  )}
                 </a>
               </li>
-            </ul>
+            </ul>{" "}
             <div className={style.nav_social}>
               <p className={style.contact_text}>info@cristianariza.tech</p>
               <a

@@ -40,6 +40,7 @@ const About = () => {
             </ul>
           </div>
         </div>
+
         <div className={style.portfolio_container}>
           <h2>Portfolio</h2>
           <div className={style.portfolio_images + " " + style.bd_grid}>
