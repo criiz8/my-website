@@ -63,20 +63,6 @@ class Nav extends React.Component {
                   Resume
                 </a>
               </li>{" "}
-              <li className={style.nav_item}>
-                <a className={style.nav_link}>EN</a> /{" "}
-                <a className={style.nav_link}>ES</a> /{" "}
-                <a className={style.nav_link}>IT</a>
-              </li>{" "}
-              <li className={style.nav_item}>
-                <a className={style.mode}>
-                  {this.state.theme === "dark" ? (
-                    <FontAwesomeIcon icon={faMoon} />
-                  ) : (
-                    <FontAwesomeIcon icon={faSun} />
-                  )}
-                </a>
-              </li>
             </ul>{" "}
             <div className={style.nav_social}>
               <p className={style.contact_text}>info@cristianariza.tech</p>
