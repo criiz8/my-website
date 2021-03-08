@@ -49,13 +49,8 @@ const About = () => {
               className={style.portfolio_link_name}
             >
               <div className={style.portfolio_img}>
-                <img
-                  src="https://raw.githubusercontent.com/criiz8/my-website/main/src/img/work1.png"
-                  alt="SoyHenry"
-                />
-                <div className={style.portfolio_link}>
-                  Responsive E-commerce
-                </div>
+                <img src="/work1.png" alt="Mondo Countries" />
+                <div className={style.portfolio_link}>Mondo Countries </div>
               </div>
             </a>
             <a
@@ -63,11 +58,8 @@ const About = () => {
               className={style.portfolio_link_name}
             >
               <div className={style.portfolio_img}>
-                <img
-                  src="https://raw.githubusercontent.com/criiz8/my-website/main/src/img/work1.png"
-                  alt="Mobile App"
-                />
-                <div className={style.portfolio_link}>Mobile App</div>
+                <img src="/work1.png" alt="Mobile App" />
+                <div className={style.portfolio_link}>Ecommerce</div>
               </div>
             </a>
             <a
@@ -75,46 +67,10 @@ const About = () => {
               className={style.portfolio_link_name}
             >
               <div className={style.portfolio_img}>
-                <img
-                  src="https://raw.githubusercontent.com/criiz8/my-website/main/src/img/work1.png"
-                  alt="Mondo"
-                />
-                <div className={style.portfolio_link}>Mondo</div>
+                <img src="/work1.png" alt="Mondo" />
+                <div className={style.portfolio_link}>Mobile App</div>
               </div>
             </a>{" "}
-            <a
-              href="https://veganizate.netlify.com"
-              className={style.portfolio_link_name}
-            >
-              <div className={style.portfolio_img}>
-                <img
-                  src="https://raw.githubusercontent.com/criiz8/my-website/main/src/img/work2.png"
-                  alt="Veganizate"
-                />
-                <div className={style.portfolio_link}>Veganizate</div>
-              </div>
-            </a>{" "}
-            <a
-              href="https://codepen.io/criiz"
-              className={style.portfolio_link_name}
-            >
-              <div className={style.portfolio_img}>
-                <img
-                  src="https://raw.githubusercontent.com/criiz8/my-website/main/src/img/work3.png"
-                  alt="Small projects"
-                />
-                <div className={style.portfolio_link}>Small projects</div>
-              </div>
-            </a>{" "}
-            <a href="https://google.com" className={style.portfolio_link_name}>
-              <div className={style.portfolio_img}>
-                <img
-                  src="https://raw.githubusercontent.com/criiz8/my-website/main/src/img/work3.png"
-                  alt="Coming Soon"
-                />
-                <div className={style.portfolio_link}>Coming soon</div>
-              </div>
-            </a>
           </div>
         </div>
       </div>
