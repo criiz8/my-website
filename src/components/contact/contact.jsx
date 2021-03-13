@@ -12,10 +12,7 @@ export default class Contact extends React.Component {
   }
   render() {
     const handleSubmit = () => {
-      this.setState({
-        SuccessMessage: (this.state.SuccessMessage =
-          "Thanks for your message!"),
-      });
+      this.setState({ SuccessMessage: "Thanks for your message!" });
     };
     return (
       <section className={style.contact} id="contact">
