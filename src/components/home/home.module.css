@@ -26,6 +26,7 @@
   font-size: var(--big-font-size);
   color: white;
   line-height: 0.8;
+  text-align: left;
 }
 .home_title span {
   text-shadow: 0 20px 25px rgba(0, 0, 0, 0.5);

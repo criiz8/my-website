@@ -14,15 +14,15 @@
 .about {
   background-color: #15202b;
 }
+.about_title {
+  text-align: center;
+}
 .me_container {
   align-items: center;
   text-align: initial;
   padding-top: 1rem;
 }
-.skills_container {
-  row-gap: 2rem;
-  margin-top: 2rem;
-}
+
 .skills_container h2 {
   margin: 0;
 }
@@ -54,9 +54,6 @@
   background-color: var(--first-color);
   color: var(--white-color);
 }
-.skills_img img {
-  border-radius: 0.5rem;
-}
 
 /* ===== PORTFOLIO =====*/
 .portfolio {
@@ -68,39 +65,35 @@
 }
 .portfolio_images {
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
   column-gap: 2rem;
   justify-items: center;
   row-gap: 2rem;
   padding: 0;
 }
-.portfolio_img {
-  position: relative;
-  overflow: hidden;
-}
-.portfolio_img img {
+.portfolio_div {
+  background-color: #33404d;
   border-radius: 0.5rem;
 }
-.portfolio_link {
-  position: absolute;
-  bottom: -100%;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(239, 239, 255, 0.3);
-  backdrop-filter: blur(10px);
+.title {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.description {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
+.img {
   border-radius: 0.5rem;
-  cursor: pointer;
-  transition: 0.3s;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
-.portfolio_img:hover .portfolio_link {
-  bottom: 0;
-}
-.portfolio_link_name {
-  font-weight: 1000;
-  color: #0f1419;
+.source {
+  color: #9ba4ff;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-decoration: underline;
+  text-underline-position: under;
 }
 
 /* ===== MAX WIDTH =====*/
@@ -126,9 +119,7 @@
   .portfolio_images {
     display: inline;
   }
-  .portfolio_images img {
-    margin-bottom: 2rem;
-  }
+
   .skills_container {
     padding-top: 2rem;
   }

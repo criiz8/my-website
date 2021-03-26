@@ -94,6 +94,10 @@
   .contact {
     height: auto;
   }
+  .bd_grid {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
   .contact_info {
     margin-top: 2rem;
     margin-bottom: 1.5rem;
