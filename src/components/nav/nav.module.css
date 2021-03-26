@@ -154,4 +154,8 @@ p {
     padding-top: 10rem;
     display: flex;
   }
+  .bd_grid {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
