@@ -43,10 +43,10 @@ const About = () => {
           <div className={style.portfolio_images + " " + style.bd_grid}>
             <div className={style.portfolio_div}>
               {" "}
-              <a href="https://soyhenry.com">
+              <a href="https://g4shirts.netlify.app">
                 <h2 className={style.title}>G4 Shirts</h2>
               </a>{" "}
-              <a href="https://soyhenry.com">
+              <a href="https://g4shirts.netlify.app">
                 {" "}
                 <img className={style.img} src="/work1.png" alt="Mondo" />
               </a>
@@ -63,10 +63,10 @@ const About = () => {
             </div>{" "}
             <div className={style.portfolio_div}>
               {" "}
-              <a href="https://mondocountries.netlify.com">
+              <a href="https://mondocountries.netlify.app">
                 <h2 className={style.title}>Mondo Countries</h2>{" "}
               </a>{" "}
-              <a href="https://mondocountries.netlify.com">
+              <a href="https://mondocountries.netlify.app">
                 {" "}
                 <img className={style.img} src="/work1.png" alt="Mondo" />
               </a>
@@ -82,7 +82,7 @@ const About = () => {
             </div>
             <div className={style.portfolio_div}>
               {" "}
-              <a href="https://mondocountries.netlify.com">
+              <a href="https://cristianariza.tech">
                 <h2 className={style.title}>My Website</h2>{" "}
               </a>{" "}
               <a href="https://cristianariza.tech">
