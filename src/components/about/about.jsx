@@ -48,7 +48,11 @@ const About = () => {
               </a>{" "}
               <a href="https://g4shirts.netlify.app">
                 {" "}
-                <img className={style.img} src="/work1.png" alt="Mondo" />
+                <img
+                  className={style.img}
+                  src="https://raw.githubusercontent.com/criiz8/my-website/main/src/img/work1.png"
+                  alt="G4 Shirts"
+                />
               </a>
               <p className={style.description}>
                 {" "}
@@ -68,7 +72,11 @@ const About = () => {
               </a>{" "}
               <a href="https://mondocountries.netlify.app">
                 {" "}
-                <img className={style.img} src="/work1.png" alt="Mondo" />
+                <img
+                  className={style.img}
+                  src="https://raw.githubusercontent.com/criiz8/my-website/main/src/img/work2.png"
+                  alt="Mondo"
+                />
               </a>
               <p className={style.description}>
                 Controlled forms, database management with PostgreSQL, React and
@@ -87,7 +95,11 @@ const About = () => {
               </a>{" "}
               <a href="https://cristianariza.tech">
                 {" "}
-                <img className={style.img} src="/work1.png" alt="Mondo" />
+                <img
+                  className={style.img}
+                  src="https://raw.githubusercontent.com/criiz8/my-website/main/src/img/work3.png"
+                  alt="Mondo"
+                />
               </a>
               <p className={style.description}>
                 Responsive react app to show my portfolio, contact form, skills
