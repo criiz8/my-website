@@ -56,7 +56,7 @@ class Nav extends React.Component {
               </li>
               <li className={style.nav_item}>
                 <a
-                  href="/cristian_ariza-resume_eng.pdf"
+                  href="/full_stack_dev-cristian_ariza-resume.pdf"
                   className={style.nav_link}
                   onClick={() => this.setState({ active: false })}
                 >
