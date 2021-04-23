@@ -8,8 +8,10 @@ const About = () => {
         <div className={style.me_container}>
           <h1 className={style.about_title}>I am a Full Stack Developer</h1>
           <p>
-            I studied web development at Henry's Bootcamp. My main goal is to
-            bring you the best quality. I love to code things. Problem solver.
+            I am looking for a position in a company where I can learn more and
+            bring value through my development skills. In Henry Bootcamp, I
+            started without knowing how to code to Full Stack Developer in just
+            6 months.
           </p>
         </div>
         <div>
@@ -56,9 +58,10 @@ const About = () => {
               </a>
               <p className={style.description}>
                 {" "}
-                Worked with 7 persons doing teamwork and presenting the project
-                to Henry's staff. · Authentication, 2FA, database management
-                with Sequelize, Express routing, password hashing with Bcrypt.
+                SCRUM methodologies with 7 people and weekly presentation to
+                Henry’s Staff. Authentication, SQL database, Stripe API, orders
+                management, and automated emails. Redux global state, shopping
+                cart, and React components with protected routes.
               </p>{" "}
               <a href="https://github.com/criiz8/mondo-front">
                 {" "}
@@ -79,9 +82,9 @@ const About = () => {
                 />
               </a>
               <p className={style.description}>
-                Controlled forms, database management with PostgreSQL, React and
-                Redux states, complex searches, optimized queries, photos
-                management. Deployed with Heroku and Netlify.
+                Controlled forms, SQL database, searches, external API, filters,
+                and React components. Complex searches, optimized queries,
+                photos management. Deployed with Heroku and Netlify.
               </p>{" "}
               <a href="https://github.com/criiz8/mondo-front">
                 {" "}
@@ -102,8 +105,7 @@ const About = () => {
                 />
               </a>
               <p className={style.description}>
-                Responsive react app to show my portfolio, contact form, skills
-                and who I am.
+                Responsive react app, contact form, skills, and who I am.
               </p>{" "}
               <a href="https://github.com/criiz8/cristianariza">
                 {" "}
