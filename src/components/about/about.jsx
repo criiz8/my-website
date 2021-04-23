@@ -58,10 +58,12 @@ const About = () => {
               </a>
               <p className={style.description}>
                 {" "}
-                SCRUM methodologies with 7 people and weekly presentation to
-                Henry’s Staff. Authentication, SQL database, Stripe API, orders
-                management, and automated emails. Redux global state, shopping
-                cart, and React components with protected routes.
+                SCRUM methodologies with 7 people.
+                <br></br> Authentication, SQL database, Stripe API, orders
+                management, and automated emails.
+                <br></br>
+                Redux global state, shopping cart, and React components with
+                protected routes.
               </p>{" "}
               <a href="https://github.com/criiz8/mondo-front">
                 {" "}
@@ -83,8 +85,10 @@ const About = () => {
               </a>
               <p className={style.description}>
                 Controlled forms, SQL database, searches, external API, filters,
-                and React components. Complex searches, optimized queries,
-                photos management. Deployed with Heroku and Netlify.
+                and React components.
+                <br></br> Complex searches, optimized queries, photos
+                management.
+                <br></br> Deployed with Heroku and Netlify.
               </p>{" "}
               <a href="https://github.com/criiz8/mondo-front">
                 {" "}
