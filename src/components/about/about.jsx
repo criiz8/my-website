@@ -50,11 +50,15 @@ const About = () => {
               </a>{" "}
               <a href="https://g4shirts.netlify.app">
                 {" "}
-                <img
-                  className={style.img}
-                  src="https://raw.githubusercontent.com/criiz8/my-website/main/src/img/work1.png"
-                  alt="G4 Shirts"
-                />
+                <picture>
+                  <source type="image/webp" srcset="img/work1.webp" />
+                  <source type="image/png" srcset="img/work1.png" />
+                  <img
+                    className={style.img}
+                    alt="G4 Shirts"
+                    src="img/work1.png"
+                  />
+                </picture>
               </a>
               <p className={style.description}>
                 {" "}
@@ -77,11 +81,11 @@ const About = () => {
               </a>{" "}
               <a href="https://mondocountries.netlify.app">
                 {" "}
-                <img
-                  className={style.img}
-                  src="https://raw.githubusercontent.com/criiz8/my-website/main/src/img/work2.png"
-                  alt="Mondo"
-                />
+                <picture>
+                  <source type="image/webp" srcset="img/work2.webp" />
+                  <source type="image/png" srcset="img/work2.png" />
+                  <img className={style.img} alt="Mondo" src="img/work2.png" />
+                </picture>
               </a>
               <p className={style.description}>
                 Controlled forms, SQL database, searches, external API, filters,
@@ -102,11 +106,15 @@ const About = () => {
               </a>{" "}
               <a href="https://cristianariza.tech">
                 {" "}
-                <img
-                  className={style.img}
-                  src="https://raw.githubusercontent.com/criiz8/my-website/main/src/img/work3.png"
-                  alt="Mondo"
-                />
+                <picture>
+                  <source type="image/webp" srcset="img/work3.webp" />
+                  <source type="image/png" srcset="img/work3.png" />
+                  <img
+                    className={style.img}
+                    alt="Cristian Ariza"
+                    src="img/work3.png"
+                  />
+                </picture>
               </a>
               <p className={style.description}>
                 Responsive react app, contact form, skills, and who I am.

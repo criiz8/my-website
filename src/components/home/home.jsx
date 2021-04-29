@@ -12,17 +12,23 @@ const Home = () => {
           <br />
           <span>LLO.</span>
         </h1>
+        <div>
+          <picture>
+            <source type="image/webp" srcset="img/me.webp" />
+            <source type="image/png" srcset="img/me.png" />
+            <img
+              className={style.home_img}
+              alt="Cristian Ariza"
+              src="img/me.png"
+            />
+          </picture>
+        </div>{" "}
         <div className={style.home_scroll}>
           <a href="#about" className={style.home_scroll_link}>
             <FontAwesomeIcon icon={faChevronDown} />
             Scroll down
           </a>
         </div>
-        <img
-          src="https://raw.githubusercontent.com/criiz8/my-website/main/src/img/me.png"
-          alt="Cristian Ariza"
-          className={style.home_img}
-        />
       </div>
     </section>
   );
