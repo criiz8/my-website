@@ -108,6 +108,8 @@ const About = () => {
                   <source type="image/webp" srcSet="img/work3.webp" />
                   <source type="image/png" srcSet="img/work3.png" />
                   <img
+                    width="auto"
+                    height="auto"
                     className={style.img}
                     alt="Cristian Ariza"
                     src="img/work3.png"
