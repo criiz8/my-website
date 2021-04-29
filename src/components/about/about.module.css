@@ -87,6 +87,8 @@
   border-radius: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  width: 375px;
+  height: 225px;
 }
 .source {
   color: #9ba4ff;
