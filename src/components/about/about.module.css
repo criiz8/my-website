@@ -116,7 +116,7 @@
   }
   .img {
     width: 750px;
-    height: 450px;
+    height: auto;
   }
   .me_container {
     padding-top: 0.8rem;
