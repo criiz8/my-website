@@ -15,23 +15,27 @@ const About = () => {
         <div>
           <h1 className={style.about_title}>Skills</h1>
           <div className={style.skills_box}>
-            <ul className={style.skills_list}>
+            <div>
               <h2 className={style.skills_subtitle}>Front End</h2>
-              <li className={style.skills_name}>HTML</li>
-              <li className={style.skills_name}>CSS</li>
-              <li className={style.skills_name}>Javascript</li>
-              <li className={style.skills_name}>React</li>
-              <li className={style.skills_name}>Redux</li>
-            </ul>
-            <ul className={style.skills_list}>
+              <ul className={style.skills_list}>
+                <li className={style.skills_name}>HTML</li>
+                <li className={style.skills_name}>CSS</li>
+                <li className={style.skills_name}>Javascript</li>
+                <li className={style.skills_name}>React</li>
+                <li className={style.skills_name}>Redux</li>
+              </ul>
+            </div>
+            <div>
               <h2 className={style.skills_subtitle}>Back End</h2>
-              <li className={style.skills_name}>Node</li>
-              <li className={style.skills_name}>Express</li>
-              <li className={style.skills_name}>PostgreSQL</li>
-              <li className={style.skills_name + " " + style.last}>
-                Sequelize
-              </li>
-            </ul>
+              <ul className={style.skills_list}>
+                <li className={style.skills_name}>Node</li>
+                <li className={style.skills_name}>Express</li>
+                <li className={style.skills_name}>PostgreSQL</li>
+                <li className={style.skills_name + " " + style.last}>
+                  Sequelize
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <div className={style.portfolio_container}>
