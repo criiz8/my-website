@@ -87,7 +87,8 @@
   border-radius: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  width: 1000px;
+  width: 375px;
+  height: 225px;
 }
 .source {
   color: #9ba4ff;
@@ -113,14 +114,16 @@
   .about {
     height: auto;
   }
-
+  .img {
+    width: 750px;
+    height: 450px;
+  }
   .me_container {
     padding-top: 0.8rem;
   }
   .portfolio_images {
     display: inline;
   }
-
   .skills_container {
     padding-top: 2rem;
   }
