@@ -14,8 +14,8 @@ const Home = () => {
         </h1>
         <div>
           <picture>
-            <source type="image/webp" srcset="img/me.webp" />
-            <source type="image/png" srcset="img/me.png" />
+            <source type="image/webp" srcSet="img/me.webp" />
+            <source type="image/png" srcSet="img/me.png" />
             <img
               className={style.home_img}
               alt="Cristian Ariza"

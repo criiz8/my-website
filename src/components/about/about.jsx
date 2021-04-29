@@ -49,8 +49,8 @@ const About = () => {
               <a href="https://g4shirts.netlify.app">
                 {" "}
                 <picture>
-                  <source type="image/webp" srcset="img/work1.webp" />
-                  <source type="image/png" srcset="img/work1.png" />
+                  <source type="image/webp" srcSet="img/work1.webp" />
+                  <source type="image/png" srcSet="img/work1.png" />
                   <img
                     className={style.img}
                     alt="G4 Shirts"
@@ -80,8 +80,8 @@ const About = () => {
               <a href="https://mondocountries.netlify.app">
                 {" "}
                 <picture>
-                  <source type="image/webp" srcset="img/work2.webp" />
-                  <source type="image/png" srcset="img/work2.png" />
+                  <source type="image/webp" srcSet="img/work2.webp" />
+                  <source type="image/png" srcSet="img/work2.png" />
                   <img className={style.img} alt="Mondo" src="img/work2.png" />
                 </picture>
               </a>
@@ -105,8 +105,8 @@ const About = () => {
               <a href="https://cristianariza.tech">
                 {" "}
                 <picture>
-                  <source type="image/webp" srcset="img/work3.webp" />
-                  <source type="image/png" srcset="img/work3.png" />
+                  <source type="image/webp" srcSet="img/work3.webp" />
+                  <source type="image/png" srcSet="img/work3.png" />
                   <img
                     className={style.img}
                     alt="Cristian Ariza"
