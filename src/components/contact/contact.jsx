@@ -70,11 +70,11 @@ export default class Contact extends React.Component {
           <p className={style.contact_text}>info@cristianariza.tech</p>
           <a
             href="https://www.linkedin.com/in/crisariza/"
-            className={style.icon}
+            style={{ marginRight: 1 + "em" }}
           >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a href="https://www.github.com/criiz8" className={style.icon}>
+          <a href="https://www.github.com/criiz8">
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>
