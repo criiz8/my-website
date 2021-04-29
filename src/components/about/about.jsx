@@ -9,33 +9,27 @@ const About = () => {
           <h1 className={style.about_title}>I am a Full Stack Developer</h1>
           <p>
             I am looking for a position in a company where I can learn more and
-            bring value through my development skills. In Henry Bootcamp, I
-            started without knowing how to code to Full Stack Developer in just
-            6 months.
+            bring value through my development skills.
           </p>
         </div>
         <div>
           <h1 className={style.about_title}>Skills</h1>
           <div className={style.skills_box}>
-            <ul className={style.skills_list + " " + style.skills_first}>
+            <ul className={style.skills_list}>
               <h2 className={style.skills_subtitle}>Front End</h2>
-              <li>
-                <span className={style.skills_name}>HTML</span>
-                <span className={style.skills_name}>CSS</span>
-                <span className={style.skills_name}>Javascript</span>
-                <span className={style.skills_name}>React</span>
-                <span className={style.skills_name}>Redux</span>
-              </li>
+              <li className={style.skills_name}>HTML</li>
+              <li className={style.skills_name}>CSS</li>
+              <li className={style.skills_name}>Javascript</li>
+              <li className={style.skills_name}>React</li>
+              <li className={style.skills_name}>Redux</li>
             </ul>
             <ul className={style.skills_list}>
               <h2 className={style.skills_subtitle}>Back End</h2>
-              <li>
-                <span className={style.skills_name}>Node</span>
-                <span className={style.skills_name}>Express</span>
-                <span className={style.skills_name}>PostgreSQL</span>
-                <span className={style.skills_name + " " + style.last}>
-                  Sequelize
-                </span>
+              <li className={style.skills_name}>Node</li>
+              <li className={style.skills_name}>Express</li>
+              <li className={style.skills_name}>PostgreSQL</li>
+              <li className={style.skills_name + " " + style.last}>
+                Sequelize
               </li>
             </ul>
           </div>

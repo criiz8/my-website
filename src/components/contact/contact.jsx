@@ -18,7 +18,7 @@ export default class Contact extends React.Component {
       <section className={style.contact} id="contact">
         <div className={style.contact_container + " " + style.bd_grid}>
           <h2>Contact</h2>
-          <h4 className={style.success}>{this.state.SuccessMessage}</h4>
+          <h3 className={style.success}>{this.state.SuccessMessage}</h3>
           <form
             name="contact"
             method="POST"
@@ -69,12 +69,13 @@ export default class Contact extends React.Component {
         >
           <p className={style.contact_text}>info@cristianariza.tech</p>
           <a
-            href="https://www.linkedin.com/in/crisariza/"
+            href="https://linkedin.com/in/crisariza/"
+            aria-label="linkedin"
             style={{ marginRight: 1 + "em" }}
           >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a href="https://www.github.com/criiz8">
+          <a href="https://github.com/criiz8" aria-label="github">
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>

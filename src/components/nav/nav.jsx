@@ -67,12 +67,17 @@ class Nav extends React.Component {
             <div className={style.nav_social}>
               <p className={style.contact_text}>info@cristianariza.tech</p>
               <a
-                href="https://www.linkedin.com/in/crisariza/"
+                href="https://linkedin.com/in/crisariza/"
                 className={style.icon}
+                aria-label="linkedin"
               >
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
-              <a href="https://www.github.com/criiz8" className={style.icon}>
+              <a
+                href="https://github.com/criiz8"
+                className={style.icon}
+                aria-label="github"
+              >
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </div>
