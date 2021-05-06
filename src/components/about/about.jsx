@@ -8,8 +8,9 @@ const About = () => {
         <div className={style.me_container}>
           <h1 className={style.about_title}>I am a Full Stack Developer</h1>
           <p>
-            I am looking for a position in a company where I can learn more and
-            bring value through my development skills.
+            I am a software developer with robust problem-solving skills and
+            proven experience in creating and designing software in a
+            test-driven environment.
           </p>
         </div>
         <div>
@@ -18,11 +19,12 @@ const About = () => {
             <div>
               <h2 className={style.skills_subtitle}>Front End</h2>
               <ul className={style.skills_list}>
-                <li className={style.skills_name}>HTML</li>
-                <li className={style.skills_name}>CSS</li>
-                <li className={style.skills_name}>Javascript</li>
                 <li className={style.skills_name}>React</li>
                 <li className={style.skills_name}>Redux</li>
+                <li className={style.skills_name}>JavaScript</li>
+                <li className={style.skills_name}>HTML</li>
+                <li className={style.skills_name}>SASS</li>
+                <li className={style.skills_name}>CSS</li>
               </ul>
             </div>
             <div>
