@@ -67,7 +67,7 @@ export default class Contact extends React.Component {
               : style.contact_info
           }
         >
-          <p className={style.contact_text}>hi@cristianariza.tech</p>
+          <p className={style.contact_text}>hi@crisariza.com</p>
           <a
             href="https://linkedin.com/in/crisariza/"
             aria-label="linkedin"
