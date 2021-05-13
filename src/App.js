@@ -1,30 +1,22 @@
-import React from "react";
-import { Route, BrowserRouter } from "react-router-dom";
-import Home from "./components/home/home";
-import Nav from "./components/nav/nav";
-import About from "./components/about/about";
-import Contact from "./components/contact/contact";
-import Scroll from "./components/scroll/scroll";
-
 import "./App.css";
+import Nav from "./components/nav";
+import Home from "./components/home";
+import Skills from "./components/skills";
+import Experiences from "./components/experiences";
+import Footer from "./components/footer";
 
 function App() {
   return (
-    <div>
-      <BrowserRouter>
-        <Scroll />
-        <Route exact path="/" render={() => <Nav />} />
-        <Route exact path="/" render={() => <Home />} />
-        <Route exact path="/" render={() => <About />} />
-        <Route exact path="/" render={() => <Contact />} />
-        <Route
-          exact
-          path="/resume"
-          render={() => {
-            window.location.href = "cristian_ariza-resume_eng.pdf";
-          }}
-        />
-      </BrowserRouter>{" "}
+    <div className="bg-gray-100 dark:bg-gray-900 dark:text-white">
+      <div className="App  max-w-screen-xl m-auto">
+        <div className="h-screen">
+          <Nav></Nav>
+          <Home></Home>
+        </div>
+        <Skills></Skills>
+        <Experiences></Experiences>
+        <Footer></Footer>
+      </div>
     </div>
   );
 }
