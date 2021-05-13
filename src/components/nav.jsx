@@ -22,6 +22,7 @@ const Nav = () => {
   return (
     <div className="flex justify-content flex-row-reverse p-4 md:p-8">
       <button
+        aria-label="theme-toggle"
         onClick={() =>
           darkMode === "dark" ? setDarkMode("white") : setDarkMode("dark")
         }

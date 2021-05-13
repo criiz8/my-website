@@ -4,9 +4,9 @@ const Home = () => {
       <h2 className="text-xl font-semibold">Hey! Cris here👋</h2>
       <h1 className="text-4xl font-bold">
         I am a software developer with robust problem-solving skills and{" "}
-        <a className="text-4xl font-bold text-purple-600 dark:text-purple-500">
+        <p className="text-4xl font-bold text-purple-600 dark:text-purple-500">
           proven experience in creating and designing software.
-        </a>
+        </p>
       </h1>
       <figcaption className="font-medium">
         <p className="text-gray-800 dark:text-gray-200">
