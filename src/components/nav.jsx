@@ -20,7 +20,7 @@ const Nav = () => {
   }, [darkMode]);
 
   return (
-    <div className="flex justify-content flex-row-reverse p-4 md:p-8">
+    <div className="flex justify-content flex-row-reverse p-4 md:p-0 md:pt-8">
       <button
         aria-label="theme-toggle"
         onClick={() =>

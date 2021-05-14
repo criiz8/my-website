@@ -1,6 +1,6 @@
 const Experiences = () => {
   return (
-    <div className="mt-24 md:text-left space-y-4">
+    <div className="mt-16 md:mt-24 md:text-left space-y-4">
       <h1 className="text-xl font-bold text-center">
         And... Where do I work?{" "}
       </h1>
