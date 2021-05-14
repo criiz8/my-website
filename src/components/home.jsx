@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div className="md:p-8 mt-64 p-4 text-left space-y-4 ">
+    <div className="md:p-8 md:mt-64 p-4 text-left space-y-4 ">
       <h2 className="text-xl font-semibold">Hey! Cris here👋</h2>
       <h1 className="text-4xl font-bold">
         I am a software developer with robust problem-solving skills and{" "}
