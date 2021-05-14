@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <div className="pb-8 mt-8 md:mt-12">
-      <div className="flex justify-center mb-4">
+    <div className="pb-4 md:pb-8 mt-8 md:mt-12">
+      <div className="flex justify-center mb-2 md:mb-4">
         <a
           href="https://linkedin.com/in/crisariza"
           aria-label="Linkedin"

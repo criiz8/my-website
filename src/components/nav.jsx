@@ -20,7 +20,7 @@ const Nav = () => {
   }, [darkMode]);
 
   return (
-    <div className="flex justify-content flex-row-reverse p-4 md:p-0 md:pt-8">
+    <div className="flex flex-row-reverse p-4 md:p-0 md:pt-8">
       <button
         aria-label="theme-toggle"
         onClick={() =>
@@ -29,7 +29,7 @@ const Nav = () => {
       >
         {darkMode === "dark" ? (
           <svg
-            className="h-6 w-6 text-gray-800 hover:text-black dark:text-gray-100 dark:hover:text-white"
+            className="h-6 w-6 text-gray-800 dark:text-gray-100 hover:text-black  dark:hover:text-white"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -50,7 +50,7 @@ const Nav = () => {
           </svg>
         ) : (
           <svg
-            className="h-6 w-6 text-gray-800 hover:text-black dark:text-gray-100 dark:hover:text-white"
+            className="h-6 w-6 text-gray-800  dark:text-gray-100 hover:text-black dark:hover:text-white"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -66,13 +66,13 @@ const Nav = () => {
       </button>
       <a
         href="/full_stack_dev-cristian_ariza-resume.pdf"
-        className="text-lg text-gray-800 font-semibold mr-4 hover:text-black dark:text-gray-100 dark:hover:text-white"
+        className="text-lg text-gray-800 dark:text-gray-100 font-semibold hover:text-black dark:hover:text-white mr-4"
       >
         Resume
       </a>
       <a
         href="/"
-        className="text-lg text-purple-600 font-bold mr-auto hover:text-purple-800 dark:text-purple-500 dark:hover:text-purple-400"
+        className="text-lg text-purple-600 dark:text-purple-500 font-bold hover:text-purple-800 dark:hover:text-purple-400 mr-auto"
       >
         cristian ariza
       </a>
