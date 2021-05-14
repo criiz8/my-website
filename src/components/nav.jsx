@@ -64,9 +64,6 @@ const Nav = () => {
           </svg>
         )}
       </button>
-      <a href="/contact" className="text-lg text-gray font-semibold mr-4">
-        Contact{" "}
-      </a>{" "}
       <a
         href="/full_stack_dev-cristian_ariza-resume.pdf"
         className="text-lg text-gray font-semibold mr-4"
