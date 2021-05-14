@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="pb-8 mt-12 md:mt-24">
+    <div className="pb-8 mt-8 md:mt-12">
       <div className="flex justify-center mb-4">
         <a
           href="https://linkedin.com/in/crisariza"
