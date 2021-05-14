@@ -42,8 +42,20 @@ const Experiences = () => {
               Jan 2021 to Present
             </h2>{" "}
             <p className="text-lg text-gray-800 dark:text-gray-200 font-semibold">
-              • Developed two projects, one alone and the other in a team using
-              SCRUM methodologies.
+              • Developed two projects,{" "}
+              <a
+                href="https://mondocountries.netlify.app/"
+                className="underline"
+              >
+                {" "}
+                Mondo Countries
+              </a>{" "}
+              by my own and{" "}
+              <a href="https://g4shirts.netlify.app/" className="underline">
+                {" "}
+                G4Shirts
+              </a>{" "}
+              in a team using SCRUM methodologies.
               <br /> • Managed components and states with React and Redux.
               <br /> • Designed a beautiful UX/UI with CSS components.
               <br /> • Created from scratch a relational database with
@@ -53,7 +65,6 @@ const Experiences = () => {
               Tokens.
               <br /> • Improved page loading by 50% with optimizations.
               <br /> • Built a paywall with Stripe API and automated emails.
-              <br /> • Made a really good video.{" "}
             </p>
           </div>
         </div>{" "}

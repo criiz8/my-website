@@ -29,7 +29,7 @@ const Nav = () => {
       >
         {darkMode === "dark" ? (
           <svg
-            class="h-6 w-6"
+            className="h-6 w-6 text-gray-800 hover:text-black dark:text-gray-100 dark:hover:text-white"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -50,7 +50,7 @@ const Nav = () => {
           </svg>
         ) : (
           <svg
-            class="h-6 w-6"
+            className="h-6 w-6 text-gray-800 hover:text-black dark:text-gray-100 dark:hover:text-white"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -66,13 +66,13 @@ const Nav = () => {
       </button>
       <a
         href="/full_stack_dev-cristian_ariza-resume.pdf"
-        className="text-lg text-gray font-semibold mr-4"
+        className="text-lg text-gray-800 font-semibold mr-4 hover:text-black dark:text-gray-100 dark:hover:text-white"
       >
         Resume
       </a>
       <a
         href="/"
-        className="text-lg text-purple-600 font-bold mr-auto dark:text-purple-500"
+        className="text-lg text-purple-600 font-bold mr-auto hover:text-purple-800 dark:text-purple-500 dark:hover:text-purple-400"
       >
         cristian ariza
       </a>

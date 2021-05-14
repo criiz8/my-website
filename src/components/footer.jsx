@@ -8,7 +8,7 @@ const Footer = () => {
           className="mr-4"
         >
           <svg
-            class="h-6 w-6 text-gray-900 dark:text-gray-300"
+            className="h-6 w-6 text-gray-900 dark:text-gray-200 hover:text-black dark:hover:text-white"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -24,7 +24,7 @@ const Footer = () => {
         </a>{" "}
         <a href="https://github.com/crisariza" aria-label="Github">
           <svg
-            class="h-6 w-6 text-gray-900 dark:text-gray-300"
+            className="h-6 w-6 text-gray-900 dark:text-gray-200 hover:text-black dark:hover:text-white"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -37,14 +37,17 @@ const Footer = () => {
           </svg>
         </a>
       </div>
-      <div className="text-gray-900 dark:text-gray-300">
-        <a>
+      <div className="text-gray-900 dark:text-gray-200">
+        <p>
           © 2021.{" "}
-          <a href="mailto:hi@crisariza.com?subject=Hi Cris!">
+          <a
+            href="mailto:hi@crisariza.com?subject=Hi Cris!"
+            className="hover:text-black dark:hover:text-white"
+          >
             hi@crisariza.com
           </a>
           . All rights reserved.
-        </a>
+        </p>
       </div>
     </div>
   );
