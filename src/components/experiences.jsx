@@ -12,14 +12,18 @@ const Experiences = () => {
               Buenos Aires // Argentina
             </h1>
             <h1 className="text-purple-600 dark:text-purple-400 font-bold mr-auto">
-              Full Stack Developer // Accenture
+              Associate Developer // Accenture
             </h1>
           </div>
           <h2 className="text-lg text-gray-700 dark:text-gray-300">
             May 2021 to Present
           </h2>{" "}
           <h2 className="text-lg text-gray-800 dark:text-gray-100 font-semibold">
-            • I haven't started yet.
+            • Working on description.
+            <br />
+            • Working on description x2.
+            <br />• Working on description x3.
+            <br />• Working on description x4.
           </h2>
         </div>
       </div>{" "}
@@ -35,7 +39,7 @@ const Experiences = () => {
             </h1>
           </div>
           <h2 className="text-lg text-gray-700 dark:text-gray-300">
-            Jan 2021 to Present
+            Jan 2021 to Apr. 2021
           </h2>{" "}
           <h2 className="text-lg text-gray-800 dark:text-gray-100 font-semibold">
             • Developed two projects,{" "}
@@ -48,13 +52,11 @@ const Experiences = () => {
             </a>{" "}
             in a team using SCRUM methodologies.
             <br /> • Managed components and states with React and Redux.
-            <br /> • Designed a beautiful UX/UI with CSS components.
             <br /> • Created from scratch a relational database with PostgreSQL
             and Sequelize.
             <br />
             • Implemented authentication and authorization through JSON Web
             Tokens.
-            <br /> • Improved page loading by 50% with optimizations.
             <br /> • Built a paywall with Stripe API and automated emails.
           </h2>
         </div>
