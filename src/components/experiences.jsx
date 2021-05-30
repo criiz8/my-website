@@ -21,9 +21,9 @@ const Experiences = () => {
           <h2 className="text-lg text-gray-800 dark:text-gray-100 font-semibold">
             • Working on description.
             <br />
-            • Working on description x2.
-            <br />• Working on description x3.
-            <br />• Working on description x4.
+            • Working on description.
+            <br />• Working on description.
+            <br />• Working on description.
           </h2>
         </div>
       </div>{" "}
