@@ -19,11 +19,7 @@ const Experiences = () => {
             May 2021 to Present
           </h2>{" "}
           <h2 className="text-lg text-gray-800 dark:text-gray-100 font-semibold">
-            • Working on description.
-            <br />
-            • Working on description.
-            <br />• Working on description.
-            <br />• Working on description.
+            • Working with React.
           </h2>
         </div>
       </div>{" "}
