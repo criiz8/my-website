@@ -37,7 +37,7 @@ const Footer = () => {
           </svg>
         </a>
       </div>
-      <div className="text-gray-900 dark:text-gray-200">
+      <div className="text-gray-900 text-center dark:text-gray-200">
         <p>
           © 2021.{" "}
           <a
